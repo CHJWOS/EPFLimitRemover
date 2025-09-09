@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "me/chronir/epfremover/mixin/CombatRulesMixin": {
+      "getDestroySpeed": "Lnet/minecraft/world/damagesource/CombatRules;m_19269_(FF)F"
+    }
+  },
+  "data": {
+    "searge": {
+      "me/chronir/epfremover/mixin/CombatRulesMixin": {
+        "getDestroySpeed": "Lnet/minecraft/world/damagesource/CombatRules;m_19269_(FF)F"
+      }
+    }
+  }
+}
