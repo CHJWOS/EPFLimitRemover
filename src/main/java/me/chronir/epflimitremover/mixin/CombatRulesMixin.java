@@ -2,15 +2,13 @@ package me.chronir.epflimitremover.mixin;
 
 import net.minecraft.world.damagesource.CombatRules;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
+import org.spongepowered.asm.mixin.injection.*;
 
 @Mixin(CombatRules.class)
 public class CombatRulesMixin {
-    
-    @Redirect(method = "getDamageAfterMagicAbsorb", at = @At(value = "INVOKE", target = "Lnet/minecraft/util/Mth;clamp(FFF)F"))
-    private static float removeEPFLimit(float p_14037_, float p_14038_, float p_14039_) {
-        return p_14037_;
+
+    @ModifyArg(method = "getDamageAfterMagicAbsorb", at = @At(value = "INVOKE", target = "Lnet/minecraft/util/Mth;clamp(FFF)F"), index = 2)
+    private static float a(float p_14037_) {
+        return 25.0F;
     }
-    
 }

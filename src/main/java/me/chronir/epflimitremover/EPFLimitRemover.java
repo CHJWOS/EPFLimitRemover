@@ -12,7 +12,7 @@ public class EPFLimitRemover
 
     public static final String MODID = "epflimitremover";
 
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public EPFLimitRemover(FMLJavaModLoadingContext context)
     {
