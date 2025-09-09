@@ -6,6 +6,12 @@
   "mixins": [
     "CombatRulesMixin"
   ],
+  "server": [
+    "CombatRulesMixin"
+  ],
+  "client": [
+    "CombatRulesMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },

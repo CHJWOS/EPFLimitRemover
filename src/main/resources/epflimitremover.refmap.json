@@ -1,13 +1,13 @@
 {
   "mappings": {
     "me/chronir/epflimitremover/mixin/CombatRulesMixin": {
-      "getDestroySpeed": "Lnet/minecraft/world/damagesource/CombatRules;m_19269_(FF)F"
+      "getDamageAfterMagicAbsorb": "Lnet/minecraft/world/damagesource/CombatRules;m_19269_(FF)F"
     }
   },
   "data": {
     "searge": {
       "me/chronir/epflimitremover/mixin/CombatRulesMixin": {
-        "getDestroySpeed": "Lnet/minecraft/world/damagesource/CombatRules;m_19269_(FF)F"
+        "getDamageAfterMagicAbsorb": "Lnet/minecraft/world/damagesource/CombatRules;m_19269_(FF)F"
       }
     }
   }
