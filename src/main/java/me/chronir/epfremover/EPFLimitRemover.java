@@ -7,10 +7,10 @@ import org.slf4j.Logger;
 
 
 @Mod(EPFRemover.MODID)
-public class EPFRemover
+public class EPFLimitRemover
 {
 
-    public static final String MODID = "epfremover";
+    public static final String MODID = "epflimitremover";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
