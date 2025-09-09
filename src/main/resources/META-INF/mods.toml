@@ -1,0 +1,32 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[47,)"
+
+license="MIT"
+
+[[mods]]
+
+modId="epflimitremover"
+
+version="1.0"
+
+displayName="EPF Remover"
+
+authors="ChJW0S"
+
+description='''Removes the EPF feature so super high level enchantments become effective.'''
+
+[[dependencies.epflimitremover]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.epflimitremover]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
