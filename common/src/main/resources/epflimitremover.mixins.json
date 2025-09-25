@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "me.chronir.epflr.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "CombatRulesMixin",
+    "ProtectionEnchantmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

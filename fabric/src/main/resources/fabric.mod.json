@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "epflimitremover",
+  "version": "${version}",
+  "name": "EPFLimitRemover",
+  "description": "aaa",
+  "authors": [
+    "ChJW0S"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.chronir.epflimitremover.fabric.EpflimitremoverFabric"
+    ]
+  },
+  "mixins": [
+    "epflimitremover.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
+}

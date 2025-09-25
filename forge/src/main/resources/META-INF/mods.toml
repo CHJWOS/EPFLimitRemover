@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "epflimitremover"
+version = "${version}"
+displayName = "EPFLimitRemover"
+authors = "ChJW0S"
+description = '''
+aaa
+'''
+#logoFile = ""
+
+[[dependencies.epflimitremover]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.epflimitremover]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
